@@ -143,3 +143,51 @@ ul li:hover:nth-child(4) a:before {
 ul li:hover:nth-child(4) a:after {
     background: #e46880;
 }
+@media screen and (max-width:600px)
+{
+   h3
+{
+    font-family: papyrus;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top : 8%;
+}
+#border
+{
+    border-width: 1px ;
+    border: transparent;
+    margin-top: 5%;
+    padding-bottom: 4%;
+}
+ul
+{
+    position : absolute;
+    top:35%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin:0;
+    padding:0;
+
+}
+ul li
+{
+    list-style: none;
+    margin: 0;
+
+}
+ul li a {
+    text-decoration: none;
+    display: absolute;
+    display: block;
+    width: 70px;
+    height: 80px;
+    background: #cecaca;
+    text-align: center;
+    padding-left: 20px;
+    
+    transform: rotate(318deg) skew(199deg) translate(0, 0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, .5);
+}
+}
