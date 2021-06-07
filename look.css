@@ -165,8 +165,9 @@ ul
     top:35%;
     left:40%;
     transform: translate(-50%, -50%);
-    display: flex;
-    margin:0;
+    display: table-column;
+    margin-top: 20%;
+    margin-left: 10%;
     padding:0;
 
 }
@@ -184,7 +185,7 @@ ul li a {
     height: 80px;
     background: #cecaca;
     text-align: center;
-    padding-left: 20px;
+  
     
     transform: rotate(318deg) skew(199deg) translate(0, 0);
     transition: .5s;
